@@ -1,0 +1,4 @@
+Times between runs of the same program can vary because of the dynamic reclocking
+of newer CPUs (TurboBoost, power-saving). Configure your CPU reclocking appropriately.
+
+If problems persist check if you have HyperThreading on.
