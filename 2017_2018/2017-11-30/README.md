@@ -114,6 +114,6 @@ Newer CPUs have a faster way for calling system functions without the full overh
 See [asm_x64_86.c](asm_x64_86.c) for full example
 
 ## References
-http://man7.org/linux/man-pages/man2/write.2.html
-http://man7.org/linux/man-pages/man2/syscall.2.html
-https://en.wikibooks.org/wiki/X86_Assembly/Interfacing_with_Linux
+* http://man7.org/linux/man-pages/man2/write.2.html
+* http://man7.org/linux/man-pages/man2/syscall.2.html
+* https://en.wikibooks.org/wiki/X86_Assembly/Interfacing_with_Linux
