@@ -18,7 +18,7 @@ int main() {
     while ((result = read(fd, buff, 10)) > 0) {
         int written = 0;
         while (written < result) {
-            int w_result = write(STDIN_FILENO, buff + written, 
+            int w_result = write(STDOUT_FILENO, buff + written, 
                                  result - written);
             if (w_result == -1) {
                 printf("error\n");
