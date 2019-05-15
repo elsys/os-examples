@@ -96,7 +96,7 @@ int main() {
 ```
 
 Голяма част от информацията не е в потребителски четим вид и трябва да се обработи допълнително:
-- st_mode - [Bit field](https://en.wikipedia.org/wiki/Bit_field), съдържащ правата и типа на файла
+- st_mode - Побитова карта, съдържащ правата и типа на файла
 - st_uid/st_gid - ID на потребител/група
 - st_atim/st_mtim/st_ctim - Различни времена от типа Unix Time, трябва да се използва функции от типа [localtime](https://linux.die.net/man/3/localtime) за да станат четими
 
@@ -194,6 +194,9 @@ status = status | LED4_MASK;
 //status ще е 0b0000000000001111
 
 ```
+
+### Допълнителна информация:
+[Wikipedia - Bit field](https://en.wikipedia.org/wiki/Bit_field)
 
 
 ## Права и тип
